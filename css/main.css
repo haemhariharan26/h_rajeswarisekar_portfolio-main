@@ -1,0 +1,80 @@
+@font-face {
+  font-family: alataregular;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Alata-Regular.ttf.ttf") format("ttf"), url("../fonts/Alata-Regular.ttf.ttf") format("tff");
+}
+body {
+  font-family: "alataregular", helvetica, arial, sans-serif;
+}
+
+h2 {
+  font-family: "alataregular", helvetica, arial;
+  font-size: 28px;
+  color: #f2d8d8;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+#main-header {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+#main-header #logo {
+  display: block;
+  height: 55px;
+  max-width: 300px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#main-header #main-nav {
+  margin-top: 40px;
+}
+#main-header #main-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin-top: 20px;
+}
+#main-header #main-nav ul li {
+  margin-right: 20px;
+}
+#main-header:last-child {
+  margin-right: 0;
+}
+#main-header #main-nav a {
+  color: #5c8984;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  #main-header #main-nav ul {
+    justify-content: flex-end;
+  }
+  #main-header #logo {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -65px;
+  }
+}
+footer {
+  height: 150px;
+}
+
+#hero-con {
+  height: 400px;
+}
+
+#contributions div {
+  height: 500px;
+}
+
+#projects div {
+  height: 400px;
+}/*# sourceMappingURL=main.css.map */
