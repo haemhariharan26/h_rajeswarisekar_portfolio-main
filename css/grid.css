@@ -29,8 +29,15 @@ body, p, h1, h2, h3, h4, h5 {
    display: none;
 }
 
+.box1 {
+   padding: 20px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+
 .box {
-   background-color: #5c8984;
+   background-color: #898989;
    color: #fff;
    border-radius: 5px;
    padding: 20px;

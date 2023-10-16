@@ -53,6 +53,14 @@ p {
   text-decoration: none;
 }
 
+
+#face-img {
+  height: 100px;
+  width: 100px;
+  color: gray;
+  fill: gray;
+}
+
 #main-nav {
   border-radius: 15%;
 }
