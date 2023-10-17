@@ -1,49 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
     <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <title>Haem Portfolio</title>
-    <link href="css/grid.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
-  </head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Haem Hariharan Project</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
 
 <body>
-    <h1 class="hidden">Haem Hariharan</h1>
-<header class="grid-con" id="main-header">
-    <nav id="main-nav" class="box col-start-1 col-end-2 m-col-start-11 m-col-end-13">Say Hello</nav>
-    <div class="box m-col-start-1 m-col-end-3" id="logo">Logo</div>
+    <h1 class="hidden">Haem Hariharan Project</h1>
+    <header id="main-header" class="grid-con">
+        <div class="box m-col-start-1 m-col-end-3 col-span-2">
+            <div id="logo">Logo</div>
+        </div>
+        <div class="box m-col-start-11 m-col-end-13 col-span-2">
+            <div id="sayhello">Say Hello</div>
+        </div>
+    </header>
+    <main>
     
-</header>
-    <section class="grid-con" id="hero-con">
-        <h1 class="hidden">Designer, Frontend Developer & Mentor</h1>
-        <div class="box col-span-full"><h1 class="">Designer, Frontend Developer & Mentor</h1><p>I design and code beautifully simple things, and I love what I do.</p>
-            <img src="" alt="">
+    <section class="grid-con" id="herosection">
+            <div class="box col-span-full">Hero Section</div>
+    </section>
+
+    <section class="full-width-grid-con" id="aboutme">
+            <div class="box col-span-full">About Me</div>
+    </section>
+
+    <section class="grid-con" id="services">
+            <div class="box col-span-full m-col-start-1 m-col-end-5 servicecard">Design</div>
+            <div class="box col-span-full m-col-start-5 m-col-end-9 servicecard">Web Development</div>
+            <div class="box col-span-full m-col-start-9 m-col-end-13 servicecard">Multimedia Production</div>
+    </section>
+
+    <section id="work">
+        <div class="heading grid-con">
+            <h2 class="box col-span-full">My Recent Work</h2>
+        </div>
+        <div class="grid-con">
+            <div class="box col-span-full m-col-start-1 m-col-end-6 workcard">Image</div>
+            <div class="box col-span-full m-col-start-6 m-col-end-13 workcard">Project Description</div>
+        </div>
+        <div class="grid-con">
+            <div class="box col-span-full m-col-start-1 m-col-end-6 workcard">Image</div>
+            <div class="box col-span-full m-col-start-6 m-col-end-13 workcard">Project Description</div>
+        </div>
+        <div class="grid-con">
+            <div class="box col-span-full m-col-start-1 m-col-end-6 workcard">Image</div>
+            <div class="box col-span-full m-col-start-6 m-col-end-13 workcard">Project Description</div>
         </div>
     </section>
-    
-   
-    <section class="grid-con" id="contributions">
-    <h2 class="box col-span-full">Contributions</h2>
-        <div class="box col-span-full m-col-start-1 m-col-end-5">User Experience</div>
-        <div class="box col-span-full m-col-start-5 m-col-end-9">Web Development</div>
-        <div class="box col-span-full m-col-start-9 m-col-end-13">Multimedia Production</div>
-    </section>
-     
-    <section class="grid-con" id="projects">
-    <h2 class="box col-span-full">Portions of my Projects</h2>
-        <div class="box col-span-full m-col-span-3">Project 1</div>
-        <div class="box col-span-full m-col-span-3">Project 2</div>
-        <div class="box col-span-full m-col-span-3">Project 3</div>
-        <div class="box col-span-full m-col-span-3">Project 3</div>
-    </section>
-    
 
-    <footer class="grid-con"> 
-        <div class="box col-span-full">Footer</div>
+    <section id="collaboration">
+        <div class="heading grid-con">
+            <h2 class="box col-span-full">Collaboration with Team</h2>
+        </div>
+        <div class="grid-con" id="product-image">
+            <div class="box col-span-full m-col-start-1 m-col-end-5">Project Image</div>
+            <div class="box col-span-full m-col-start-5 m-col-end-9">Project Image</div>
+            <div class="box col-span-full m-col-start-9 m-col-end-13">Project Image</div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="heading grid-con">
+            <h2 class="box col-span-full"><Table></Table>Testimonial</h2>
+        </div>
+        <div class="grid-con" id="testimonialsection">
+            <div class="box col-span-full m-col-start-5 m-col-end-9 image">Client Image</div>
+            <div class="box col-span-full m-col-start-2 m-col-end-12 text">Testimonial Text</div>
+            
+        </div>
+    </section>
+
+    </main>
+    <footer class="box full-width-grid-con">
+        <p class="col-span-full">Footer</p>
     </footer>
 
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
