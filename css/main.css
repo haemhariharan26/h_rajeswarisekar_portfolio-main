@@ -13,19 +13,14 @@ p{
     line-height: 20px;
 }
 .box {
-    background: #cfcfcf;
+    background: #3f58c7;
     padding: 20px;
     border-radius: 5px;
     border : 1px solid #a2a2a2;
     margin-top: 20px;
     text-align: center;
 }
-.heading{
-    margin-top: 70px;
-}
-#herosection {
-    height: 500px;
-}
+
 #aboutme {
     height: 400px;
 }
@@ -62,10 +57,7 @@ p{
 .contactme{
     height: 350px;
 }
-footer{
-    height:300px;
-    margin-top: 50px;
-}
+
 @media screen and (max-width: 768px) {
     .heading{
         margin-top: 20px;
