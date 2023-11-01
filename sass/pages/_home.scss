@@ -1,0 +1,29 @@
+body {
+    font-family: 'cantarellregular', helvetica, arial; ;
+  }
+  p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .box {
+    background: #3074bd;
+    padding: 20px;
+    border-radius: 5px;
+    border : 1px solid #282828;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #aboutme {
+    height: 400px;
+  }
+  #services{
+    min-height: 300px;
+  }
+  .servicecard{
+    height: 300px;
+  }
+  #work{
+   margin-top: 30px;
+  }
