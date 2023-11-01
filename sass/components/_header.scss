@@ -1,15 +1,8 @@
 @use '../abstracts' as a;
 
 .heading{
-    margin-top: 70px;
+  margin-top: 70px;
 }
 #herosection {
-    height: 100px;
-    width: 200px;
+  height: 500px;
 }
-
-@media screen and (max-width: 768px) {
-    .heading{
-        margin-top: 20px;
-    }
-  }
